@@ -25,3 +25,18 @@ middlewares/
 models/
 routes/
 config/
+
+
+## ⚙️ Environment Variables
+
+Create a `.env` file:
+```env
+PORT=5000
+MONGO_URI=your_mongodb_uri
+JWT_SECRET=your_jwt_secret
+
+🚀 Getting Started
+git clone https://github.com/your-username/lead-management-backend.git
+cd lead-management-backend
+npm install
+npm run dev
